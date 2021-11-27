@@ -1,0 +1,19 @@
+{
+  "name": "Ookami Bot Official",
+  "version": "0.1.1",
+  "description": "Bopt de Discord for the Community",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "PintoGamer64",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "discord.js": "^13.4.0-dev.1637841784.54f937d",
+    "glob": "^7.2.0",
+    "mongoose": "^6.0.13"
+  }
+}
