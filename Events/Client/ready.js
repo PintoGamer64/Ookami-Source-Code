@@ -12,7 +12,7 @@ module.exports = {
     execute(client) {
         console.log("The Bot is Working 💼");
         client.user.setActivity(
-            "PintoGamer64",
+            "https://pintogamer64.github.io/Ookami-Bot-Official/",
             {
                 type: "WATCHING"
             }
