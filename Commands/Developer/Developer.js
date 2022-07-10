@@ -4,12 +4,12 @@ const client = new Client({ intents: 32767 });
 module.exports = {
     name: "dev",
     description: "Muestra detalles del desarrollador del Bot",
-    Permission: "",
     /**
      * 
      * @param {CommandInteraction} interaction
      */
     execute(interaction) {
+        console.log(`developer`);
         const exampleEmbed = new MessageEmbed()
             .setColor('#ff0000')
             .setTitle("**Desarrollador Del Bot**\n╔═════════════════════════╗")

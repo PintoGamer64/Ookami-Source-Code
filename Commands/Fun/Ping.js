@@ -9,6 +9,7 @@ module.exports = {
      * @param {CommandInteraction} interaction
      */
     execute(interaction){
+        console.log(`hola`);
         interaction.reply({ content: "Poing" })
     }
 }
